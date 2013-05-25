@@ -1,5 +1,11 @@
-def main 
-  puts "Gerenciador de Reservas"
+class Main
+
+  def main
+    puts "Gerenciador de Reservas"
+  end
+
 end
 
-main
+main = Main.new
+
+main.main

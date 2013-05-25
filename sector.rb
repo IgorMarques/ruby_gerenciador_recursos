@@ -5,4 +5,7 @@ class Sector
     @code = code
   end
 
+  def add_user (user)
+    users << user
+  end
 end
